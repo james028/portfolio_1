@@ -14,7 +14,8 @@
     }
     .row-3 .port-1 img
     {
-        max-width: 100%;
+       width: 300px;
+        height: 200px;
         justify-content: center;
         align-items: center;
     }
@@ -37,6 +38,7 @@
     {
         max-width: 90%;
         margin: 20px;
+        height: 200px;
     }
     .side-2 .text-1
     {
@@ -79,4 +81,24 @@
     {
         font-size: 14px;
     }
+    #contact-area
+    {
+        padding: 1px;
+        margin-left: 5px;
+    }
+    .row-3 .port-2 .port-text-2 p
+    {
+        font-size: 22px;
+    }
+    .page h1
+    {
+        font-size: 50px;
+        padding: 10px 5px;
+    }
+    .page h4
+    {
+        font-size: 16px;
+    }
+    
+
 }
