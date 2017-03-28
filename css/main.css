@@ -14,9 +14,11 @@ body
     color: #fff; 
 }
 
+
+/* Responsywne menu*/
+
 .responsive-nav {
   position: relative;
-  margin-bottom: 10px;
   background-color: #000;
   display: none;
   width: 100%;
@@ -89,9 +91,19 @@ body
 
 /* Page */
 
-container
+.con-4
 {
-    width: 100%;
+    background-image: url('../img/back.jpg');
+    background-size: cover;
+    overflow: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 200px;
+    min-height:670px;
+    max-width: 100%;
+    max-height:100%;
+    margin: 0 auto;
+    display: block;
 }
 .row
 {
@@ -103,6 +115,7 @@ container
 {
     font-size: 40px;
     letter-spacing: 1px;
+    color: #000;
 }
 
 /* Nagłówek */
@@ -112,7 +125,6 @@ h1 {
   padding: 80px 50px;
   text-align: center;
   text-transform: uppercase;
-  text-rendering: optimizeLegibility;
 }
 
 h1.insetshadow {
@@ -126,7 +138,7 @@ h1.insetshadow {
   position: relative;
   width: 24px;
   height: 24px;
-margin-top: 50px;
+    margin-top: 50px;
 }
 
 .chevron {
@@ -153,7 +165,7 @@ margin-top: 50px;
   top: 0;
   height: 100%;
   width: 51%;
-  background: #fff;
+  background: #000;
 }
 
 .chevron:before {
@@ -181,7 +193,7 @@ margin-top: 50px;
     transform: translateY(40px);
   }
   100% {
-    opacity: 0;
+    opacity: 1;
     transform: translateY(55px) scale3d(0.5, 0.5, 0.5);
   }
 }
@@ -189,9 +201,9 @@ margin-top: 50px;
 .text {
   display: block;
   margin-top: 75px;
-  margin-left: -30px;
+  margin-left: -45px;
   font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
-  font-size: 12px;
+  font-size: 16px;
   color: #fff;
   text-transform: uppercase;
   white-space: nowrap;
@@ -199,6 +211,10 @@ margin-top: 50px;
   animation: pulse 2s linear alternate infinite;
 }
 
+.scroll a
+{
+    text-decoration: none;
+}
 @keyframes pulse {
   to {
     opacity: 1;
@@ -339,6 +355,7 @@ margin-top: 50px;
 .row-3
 {
     display: flex;
+    margin: 80px auto;
 }
 .row-3 .port-1
 {
@@ -382,12 +399,21 @@ margin-top: 50px;
     text-align: center;
     color: #9c2b0e;
 }
-.row-3 .port-1 .port-text-1 p:hover
+
+.git
 {
-    color: #7c7371;
+    margin-left: 40px;
 }
-
-
+.git-1, .git-2
+{
+    display: inline-block;
+    margin: 5px 30px;
+}
+.git-1 a, .git-2 a
+{
+    text-decoration: none;
+    color: coral;
+}
 
 /*  Sekcja Kontakt */
 .title
@@ -408,6 +434,7 @@ margin-top: 50px;
 .row-4 .con-1
 {
     margin: 30px;
+    font-size: 24px;
 
 }
 .row-4 .con-2 .social 

@@ -75,7 +75,7 @@
     }
     .row-4 .con-1, .row-4 .con-2, row-4 .con-3
     {
-        margin: 45px 40px;
+        margin: 80px 40px;
     }
     #ft p
     {
@@ -99,6 +99,17 @@
     {
         font-size: 16px;
     }
-    
+    .con-4
+    {
+        min-height: 500px;
+    }
+    .con-1
+    {
+        margin-top: 30px;
+    }
+    .git
+    {
+    margin-left: 20px;
+    }
 
 }
