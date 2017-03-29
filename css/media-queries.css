@@ -5,6 +5,7 @@
   }
 }
 
+
 @media (min-width: 480px) and (max-width: 800px){
     .row-1
     {
@@ -63,8 +64,10 @@
         display: block;
     }
 }
+
+
+
 @media (max-width: 479px){
-    
    .row-3
     {
         display: flex;
@@ -169,5 +172,4 @@
     {
     margin-left: 20px;
     }
-
 }
