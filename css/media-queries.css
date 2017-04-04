@@ -6,7 +6,7 @@
 }
 
 
-@media (min-width: 480px) and (max-width: 800px){
+@media (min-width: 540px) and (max-width: 800px){
     .row-1
     {
         display: flex;
@@ -175,7 +175,7 @@
     }
     .page h4
     {
-        font-size: 16px;
+        font-size: 20px;
     }
     .con-4
     {
